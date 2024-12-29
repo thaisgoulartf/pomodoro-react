@@ -3,7 +3,7 @@ export type UserCardVariant = 'online' | 'offline' | 'busy';
 
 interface ProductContainerProps {
   variant: UserCardVariant;
-}
+} 
 
 const userCardVariants = {
   online: 'green',
